@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap');
+
+body, html, * {
+    font-family: 'Inclusive Sans', sans-serif;
+}
+body {
+    margin: 0px;
+}
+.login {
+    height: 100vh;
+    background: #e5e5e5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login__form {
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 4px 12px #0000005c;
+    border-radius: 5px;
+}
+.login__form h1 {
+    text-align: center;
+    font-size: 30px;
+}
+.login__input {
+    margin-bottom: 20px;
+}
+.login__input input {
+    width: 100%;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 1px #cfcfcf;
+    background: #f3f3f3;
+}
+.login__input label {
+    display: block;
+    margin-bottom: 5px;
+    color: #418ced;
+    font-weight: 700;
+}
+.btn {
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background: #f3bb67;
+    color: white;
+    padding: 10px;
+    font-size: 17px;
+}
+
+
+.header {
+    background: #dddddd;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.header p {
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 700;
+    color: #4b4b4b;
+}
+.header .user i {
+    font-style: normal;
+    width: 17px;
+    height: 17px;
+    background: #418ced;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-right: 5px;
+}
