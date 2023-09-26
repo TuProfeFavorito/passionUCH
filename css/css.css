@@ -80,3 +80,31 @@ body {
     color: white;
     margin-right: 5px;
 }
+
+.listChicas {
+    padding: 10px 20px;
+}
+.elementoChica {
+    position: relative;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 9px #0000002e;
+    padding: 10px;
+    border-left: solid 2px #f3bb67;
+}
+.elementoChica h3 {
+    margin: 0px;
+    font-size: 25px;
+}
+.elementoChica p {
+    margin: 0px;
+    color: #418ced;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.elementoChica span {
+    margin-top: 5px;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 10px;
+}
